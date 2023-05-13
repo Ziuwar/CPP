@@ -2,7 +2,8 @@
 #include <vector>
 #include <string>
 
-#include "cout_example.h"
+#include <main.h>
+#include <cout_example.h>
 
 using namespace std;
 
@@ -45,7 +46,7 @@ void boolean(void)
     bool flag; // 1 bit
 }
 
-int main(void)
+int main(int argc, char *argv[])
 {
     short int flag = 1;         // Return value flag
 
