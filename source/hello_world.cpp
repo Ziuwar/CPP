@@ -12,6 +12,8 @@
 #include <vector>
 #include <string>
 
+#include <hello_world.h>
+
 using namespace std;
 
 void hello_world(void)

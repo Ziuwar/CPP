@@ -9,8 +9,8 @@
 
 // External header files
 #include <iostream>
-#include <vector>
-#include <string>
+
+using namespace std;
 
 // User header files
 #include <main.h>
@@ -21,10 +21,9 @@
 int main(int argc, char *argv[])
 {
     short int flag = 1;         // Return value flag
-
+    
     //hello_world();            // Call function 
     cout_example();
-   // cin.get();                  // Wait for user input
+    cin.get();                  // Wait for user input
     return 0;                   // Termination code
-
 }
