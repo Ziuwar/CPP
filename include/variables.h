@@ -1,24 +1,26 @@
 /**
   ******************************************************************************
-  * @file           : main.h
-  * @brief          : Main program body header file
+  * @file           : variables.h
+  * @brief          : Variables program body header file
   ******************************************************************************
   * @attention
   ******************************************************************************
 **/
 
 // Define to prevent recursive inclusion
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef __VARIABLES_H
+#define __VARIABLES_H
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-int main(int argc, char *argv[]);
-void hello_world(void);
+void inter(void);
+void character(void);
+void floating_point(void);
+void boolean(void);
 
 #ifdef __cplusplus
 }
 #endif
-#endif /* __MAIN_H */
+#endif /* __VARIABLES_H */

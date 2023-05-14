@@ -1,3 +1,12 @@
+/**
+  ******************************************************************************
+  * @file           : cout_example.cpp
+  * @brief          : Cout_example program body
+  ******************************************************************************
+  * @attention
+  ******************************************************************************
+**/
+
 /*
 oct, dec, hex           Darstellungsweise
 setprecition(int)       Anzahl der Ziffern
@@ -13,7 +22,7 @@ left / right            link- bzw. rechtsbündig
 
 using namespace std;
 
-int affe(void)
+int cout_example(void)
 {
     cout << setw(10) << setfill('#') << "Hallo" << endl;
     cout << setw(10) << setfill('#') << left << "Hallo" << endl;
