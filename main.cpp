@@ -16,20 +16,7 @@
 #include <main.h>
 #include <variables.h>
 #include <cout_example.h>
-
-
-using namespace std;
-
-void hello_world(void)
-{
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-    
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
-}
+#include <hello_world.h>
 
 int main(int argc, char *argv[])
 {
@@ -37,6 +24,7 @@ int main(int argc, char *argv[])
 
     //hello_world();            // Call function 
     cout_example();
-    cin.get();                  // Wait for user input
+   // cin.get();                  // Wait for user input
     return 0;                   // Termination code
+
 }
