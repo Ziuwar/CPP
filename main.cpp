@@ -7,23 +7,23 @@
   ******************************************************************************
 **/
 
-// External header files
-#include <iostream>
-
-using namespace std;
-
 // User header files
 #include <main.h>
 #include <variables.h>
 #include <cout_example.h>
 #include <hello_world.h>
+#include <cpp_class.h>
 
 int main(int argc, char *argv[])
 {
-    short int flag = 1;         // Return value flag
-    
+  int buffer = 0;         // Return value flag
     //hello_world();            // Call function 
-    cout_example();
-    cin.get();                  // Wait for user input
-    return 0;                   // Termination code
+    //cout_example();
+
+  Calculator C1;
+
+  buffer = C1.add(4,3);
+
+
+  return buffer;                   // Termination code
 }
