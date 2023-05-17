@@ -8,11 +8,11 @@
 **/
 
 // User header files
-#include <main.h>
-#include <variables.h>
-#include <cout_example.h>
-#include <hello_world.h>
-#include <cpp_class.h>
+#include "include/main.h"
+#include "include/variables.h"
+#include "include/cout_example.h"
+#include "include/hello_world.h"
+#include "include/cpp_class.h"
 
 int main(int argc, char *argv[])
 {
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
   Calculator C1;
 
-  buffer = C1.add(4,3);
+  buffer = C1.add(200,24);
 
 
   return buffer;                   // Termination code

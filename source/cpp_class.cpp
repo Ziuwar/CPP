@@ -7,7 +7,7 @@
   ******************************************************************************
 **/
 
-#include <cpp_class.h>
+#include  "../include/cpp_class.h"
 
 // Function for adding two integers
 int Calculator::add(int num1, int num2) {
